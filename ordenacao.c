@@ -20,10 +20,10 @@ void SelectSort(int n, int *x) {
 void InsectionSort(int n, int* x) {
 	int chave, i;
 	
-	for (int j = 2; j < n; j++) {
+	for (int j = 1; j < n; j++) {
 		chave = x[j];
 		i = j - 1;
-		while ((i > 0) && (x[i] > chave)) {
+		while ((i >= 0) && (x[i] > chave)) {
 			x[i + 1] = x[i];
 			i = i - 1;
 		}
