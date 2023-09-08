@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div>
 <h5>Projeto: Estrutura de dados 2<h5>
 <h5>Autor: Antonio Neto</h5>
