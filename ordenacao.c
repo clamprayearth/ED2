@@ -30,3 +30,17 @@ void InsectionSort(int n, int* x) {
 		x[i + 1] = chave;
 	}
 }
+
+void BubbleSort(int n, int * x) {
+	int t =0;
+	
+	for (int i = n-1; i >= 0; i--) {
+		for (int j = 1; j <= i; j++) {
+			if (x[j-1] > x[j]) {
+				t = x[j-1];
+				x[j-1] = x[j];
+				x[j] = t;
+			}
+		}
+	}
+}
