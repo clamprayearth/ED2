@@ -7,8 +7,8 @@ int main() {
 	int tamanho = 0;
 	tamanho = sizeof(notas) / sizeof(notas[0]);
 
-	InsectionSort (tamanho, notas);
+	BubbleSort(tamanho, notas);
 	for(int i=0; i<tamanho; i++)
-		printf("%d\n",notas[i]);
+		printf("%d ",notas[i]);
 	return 0;
 }
