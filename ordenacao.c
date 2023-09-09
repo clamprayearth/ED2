@@ -6,7 +6,10 @@ e troque-o com o elemento na primeira posição. Depois,
 encontre o segundo menor elemento do arranjo e troque-o com o
 elemento na segunda posição. Continue o processo até que todo
 o arranjo esteja ordenado.
-Complexidade = O(n^2)*/
+Complexidade
+	Melhor caso O(n^2)
+	Pior caso O(n^2)
+Estavel?= não*/
 void SelectSort(int n, int *x) {
 	int indx, minimo;
 
@@ -27,7 +30,10 @@ void SelectSort(int n, int *x) {
 basta movimentar os elementos maiores que ele dentre aqueles
 já considerados(ordenados) uma posição para a direita e, então,
 inserir o elemento considerado na posição vaga resultante.
-Complexidade = O(n^2)*/
+Complexidade
+	Melhor caso O(n)
+	Pior caso O(n^2)
+Estavel?= sim*/
 void InsetionSort(int n, int* x) {
 	int chave, i;
 	
@@ -45,7 +51,10 @@ void InsetionSort(int n, int* x) {
 /*Funcionamento: baseia-se na ideia de comparar repetidamente
 pares de elementos adjacentes e, em seguida, trocar as suas 
 posições se existirem na ordem errada.
-Complexidade = O(n^2)*/
+Complexidade
+	Melhor caso O(n)
+	Pior caso O(n^2)
+Estavel?= sim*/
 void BubbleSort(int n, int * x) {
 	int t =0;
 	
@@ -101,7 +110,10 @@ void Merge(int* v, int inic, int meio, int fim) {
 /*Funcionamento: é um algoritmo eficiente de ordenação por divisão e conquista.
 Primeiro o seguencia é sucessivamente divida em dois através do metodo MergeSort até resta apenas um elemento. 
 Depois o algoritmo vem juntando as partes de forma intercalada e na ordem certa utilizando o metodo merge.
-Complexidade = O(n*logn)*/
+Complexidade
+	Melhor caso O(n*logn)
+	Pior caso O(n*logn)
+Estavel?= sim*/
 void MergeSort(int inic, int fim, int* a) {
 	if (inic < fim) {
 		int meio = (inic + fim) / 2;
