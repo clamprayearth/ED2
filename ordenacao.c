@@ -28,7 +28,7 @@ basta movimentar os elementos maiores que ele dentre aqueles
 já considerados(ordenados) uma posição para a direita e, então,
 inserir o elemento considerado na posição vaga resultante.
 Complexidade = O(n^2)*/
-void InsectionSort(int n, int* x) {
+void InsetionSort(int n, int* x) {
 	int chave, i;
 	
 	for (int j = 1; j < n; j++) {
