@@ -8,11 +8,11 @@ referencia: https://en.wikipedia.org/wiki/Sorting_algorithm</h5>
 <div>
 Todos os exemplos podem ser compilados através do makefile e pode-se 
 usar o valgrind para detectar vazamentos de memória no próprio makefile.
-Esta implementada em c os seguintes algorimos de ordenação:
-	*SelectSort
-	*InsetionSort
-	*BubbleSort
-	*MergeSort
-	*HeapSort
+Esta implementada em c os seguintes algorimos de ordenação:<\br>
+	*SelectSort<\br>
+	*InsetionSort<\br>
+	*BubbleSort<\br>
+	*MergeSort<\br>
+	*HeapSort<\br>
 ObS: Em processamento para a inclusão de mais algoritmos em c
 </div>
