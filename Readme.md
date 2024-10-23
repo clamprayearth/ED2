@@ -1,4 +1,3 @@
-<div>
 <h5>Projeto: Estrutura de dados 2</br>
 Autor: Antonio Neto</br>
 Data: 08/09/2023</br>
@@ -9,9 +8,7 @@ referencia: https://en.wikipedia.org/wiki/Sorting_algorithm</h5>
 Performance dos algoritmos: tempo de execução</br>
 Espaço utilizado</br>
 Estabilidade: Um algoritmo é dito ser estável se ele preserva a ordem relativa das chaves de valor igual no arquivo.</br></h4>
-</div>
 
-<div>
 Todos os exemplos podem ser compilados atrav�s do makefile e pode-se 
 usar o valgrind para detectar vazamentos de mem�ria no pr�prio makefile.
 Esta implementada em c os seguintes algorimos de ordena��o:</br></br>
@@ -34,4 +31,3 @@ Esta implementada em c os seguintes algorimos de ordena��o:</br></br>
 
 	HeapSort
 ObS: Em processamento para a inclus�o de mais algoritmos em c
-</div>
