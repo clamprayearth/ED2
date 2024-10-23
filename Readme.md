@@ -8,10 +8,10 @@ referencia: https://en.wikipedia.org/wiki/Sorting_algorithm</h5>
 <div>
 Todos os exemplos podem ser compilados atrav�s do makefile e pode-se 
 usar o valgrind para detectar vazamentos de mem�ria no pr�prio makefile.
-Esta implementada em c os seguintes algorimos de ordena��o:</br>
+Esta implementada em c os seguintes algorimos de ordena��o:</br></br>
 	*SelectSort - https://en.wikipedia.org/wiki/Selection_sort - PIOR=n^2 / MELHOR=n^2 -ESTÁVEL-</br>
-		</div>obs: O selection sort é estável pelo fato de haver a verificação</br>
-		de menor valor sempre, independe dos casos possiveis.</br></div>
+		obs: O selection sort é estável pelo fato de haver a verificação</br>
+		de menor valor sempre, independe dos casos possiveis.</br></br>
 	*InsetionSort</br>
 	*BubbleSort</br>
 	*MergeSort</br>
