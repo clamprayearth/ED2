@@ -2,17 +2,17 @@
 <h5>Projeto: Estrutura de dados 2</br>
 Autor: Antonio Neto</br>
 Data: 08/09/2023</br>
-Descrição: Exemplos de ED2 ministrado pela professora Luciana Lee.</br>
+Descriï¿½ï¿½o: Exemplos de ED2 ministrado pela professora Luciana Lee.</br>
 referencia: https://en.wikipedia.org/wiki/Sorting_algorithm</h5>
 </div>
 <div>
-Todos os exemplos podem ser compilados através do makefile e pode-se 
-usar o valgrind para detectar vazamentos de memória no próprio makefile.
-Esta implementada em c os seguintes algorimos de ordenação:</br>
-	*SelectSort</br>
+Todos os exemplos podem ser compilados atravï¿½s do makefile e pode-se 
+usar o valgrind para detectar vazamentos de memï¿½ria no prï¿½prio makefile.
+Esta implementada em c os seguintes algorimos de ordenaï¿½ï¿½o:</br>
+	*SelectSort - https://en.wikipedia.org/wiki/Selection_sort</br>
 	*InsetionSort</br>
 	*BubbleSort</br>
 	*MergeSort</br>
 	*HeapSort</br>
-ObS: Em processamento para a inclusão de mais algoritmos em c
+ObS: Em processamento para a inclusï¿½o de mais algoritmos em c
 </div>
